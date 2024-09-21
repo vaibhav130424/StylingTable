@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table {
+                margin: 10%;
+                border: solid 2px rgb(108, 107, 107);
+            }
+            th, td {
+                border: 1px solid rgb(204, 202, 202);
+            }
+            .heading {
+                background-color: rgb(68, 148, 68);
+            }
+            .sum {
+                background-color: rgb(222, 221, 221);
+            }
+            
+        </style>
+        <title>Styling a Table</title>
+    </head>
+    <body>
+        <table>
+            <tr class="heading">
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price per Unit</th>
+                <th>Description</th>
+                <th>Total Price</th>
+            </tr>
+            <tr class="detail">
+                <td>Product 1</td>
+                <td>2</td>
+                <td>$10</td>
+                <td>This is product 1</td>
+                <td>$20</td>
+            </tr>
+            <tr class="detail">
+                <td>Product 2</td>
+                <td>3</td>
+                <td>$20</td>
+                <td>This is product 2</td>
+                <td>$60</td>
+            </tr>
+            <tr class="sum">
+                <td colspan="4"><b>Sum</b></th>
+                <td><b>$80</b></td>
+            </tr>
+        </table>
+    </body>
+</html>
